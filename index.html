@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habib Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+
+nav {background-color: #1a0b2e;
+width: 100%;
+max-width: 2600px;}   
+
+.menus ul li a {text-decoration: none;
+                color: #FFFFFF;
+                }
+
+
+.head {display: flex;
+        justify-content: space-between;
+        }
+
+.logos h1 a {text-decoration: none;
+            color: #FFFFFF;
+            margin: 30px 0 30px 230px;
+ }
+ .LGr {color: linear-gradient(to bottom, #9C27B0 0%, #FF4081 50%, #FFAB91 100%);
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.btn-hdn {display: flex;}
+
+.nw {position: absolute;
+    color: white;
+    background-color: #00FF88;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+#ball{  width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 100px;
+        left: 130px;
+        z-index: 7;
+        margin: auto;
+}
+
+#hero {width: 100%;
+       max-width: 2600px;
+}
+
+
+    </style>
+</head>
+<body class="inter">
+    <header>
+        <nav>
+            
+            <div class="head">
+            <div class="logos">
+                <h1><a href="#">Tech<span style="color:linear-gradient(to bottom, #9C27B0 0%, #FF4081 50%, #FFAB91 100%);">Wave</span></a></h1>
+            </div>
+            <div class="menus">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Episodes</a></li>
+                    <li><a href="#">Host</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button><a href="#">Subscribe</a></button>
+                <img src="./assets/arrow.png" alt="">
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <h2 class="nw">New</h2>
+
+        <div class="images">
+            <img src="./assets/hero-bg.png" alt="hero-bg" id="hero">
+        </div>
+
+            <div class="images-contents">
+            <img src="./assets/hero-circle.png" alt="hero-circle" id="ball">
+            <img src="./assets/microphone.png" alt="microphone">
+            
+        </div>
+        <div class="btn-hdn">
+            <h1 class="h11">TechWave</h1>
+            <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        </div>
+        <button><a href="#">Listen On Spotify</a></button>
+        <button><a href="#">Subscribe</a></button>
+    </section>
+
+
+
+</body>
+</html>
+
